@@ -46,6 +46,14 @@
   header img {
     @apply w-full max-w-lg h-auto object-contain mx-auto drop-shadow-md;
   }
+
+  .error-msg {
+      @apply text-red-400 text-lg mt-4 p-4 bg-gray-300/10 ;
+    }
+    
+  .spinner {
+      @apply flex items-center justify-center h-50;
+    }
 }
 
 @layer components {
@@ -141,14 +149,11 @@
     }
   }
 
-  .spinner {
-    @apply flex items-center justify-center h-20;
-
-    & svg {
-      @apply w-2 h-2 text-light-100 animate-spin;
-    }
-  }
+    
 }
+
+  
+
 
 @utility text-gradient {
   @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
