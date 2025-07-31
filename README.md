@@ -65,7 +65,7 @@ The app will be running at http://localhost:5173
 
 ---
 
-### 📦 Free Assets & UI Snippets
+## 📦 Free Assets & UI Snippets
 Use these helpful resources to speed up development and design.
 - JS Mastery Pro
 - Free Video Kit Assets
@@ -73,7 +73,7 @@ Explore more at https://jsmastery.com
 
 ---
 
-### ✅ Linting & TypeScript Support
+## ✅ Linting & TypeScript Support
 This project includes basic ESLint configuration.
 
 To improve:
@@ -83,10 +83,10 @@ To improve:
 
 ---
 
-### 📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
 ---
 
-# 🙌 Built With
+## 🙌 Built With
 Made with ❤️ and guidance from Mentor Buteyo
