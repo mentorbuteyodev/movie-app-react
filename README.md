@@ -1,12 +1,84 @@
-# React + Vite
+# 🎬 Movie Discovery App — Built with React + Vite + Appwrite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Movie Discovery App**, a blazing-fast web application that helps users find and explore movies they'll love — without the hassle.  
+Built with modern tools, clean architecture, and an eye for design.
 
-Currently, two official plugins are available:
+![Movie App Preview](./movie_app.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> 🚧 This is a work in progress. Stay tuned for continuous improvements.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔍 Search through thousands of movies instantly
+- 🎨 Clean and responsive UI with dark mode support
+- 🧠 Smart and intuitive interface
+- 🔐 Secure user authentication and backend data via **Appwrite**
+- ⚡️ Fast performance using **React 18 + Vite**
+- 🛠️ Extensible architecture for future enhancements (e.g., watchlists, reviews)
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Backend**: [Appwrite](https://appwrite.io) (Authentication + Database)
+- **Styling**: Tailwind CSS or Custom CSS
+- **Movie API**: External (e.g., TMDB or OMDb)
+- **State Management**: React Hooks / Context API
+
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to set up the project on your local machine.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/movie-app.git
+cd movie-app
+```
+
+### 2. Install dependencies 
+```bash
+npm install 
+```
+
+### 3. Configure Environment Variables
+Create a [.env] file at the root with the following:
+```bash 
+VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+VITE_APPWRITE_PROJECT=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
+
+```
+🔐 Make sure to replace the placeholders with your actual Appwrite project values.
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+The app will be running at http://localhost:5173
+
+### 📦 Free Assets & UI Snippets
+Use these helpful resources to speed up development and design.
+- JS Mastery Pro
+- Free Video Kit Assets
+Explore more at https://jsmastery.com
+
+### ✅ Linting & TypeScript Support
+This project includes basic ESLint configuration.
+
+To improve:
+- Migrate to TypeScript
+- Enable type-aware rules via typescript-eslint
+- Check the React + TypeScript template for reference
+
+### 📄 License
+This project is licensed under the MIT License.
+
+# 🙌 Built With
+Made with ❤️ and guidance from Mentor Buteyo
