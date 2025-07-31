@@ -89,4 +89,4 @@ This project is licensed under the MIT License.
 ---
 
 ## 🙌 Built With
-Made with ❤️ and guidance from Mentor Buteyo
+Made with ❤️ 
