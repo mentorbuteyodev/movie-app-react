@@ -46,7 +46,7 @@ npm install
 ```
 
 ### 3. Configure Environment Variables
-Create a [.env] file at the root with the following:
+Create a ``.env`` file at the root with the following:
 ```bash 
 VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
 VITE_APPWRITE_PROJECT=your_project_id
