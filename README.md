@@ -3,7 +3,7 @@
 Welcome to the **Movie Discovery App**, a blazing-fast web application that helps users find and explore movies they'll love — without the hassle.  
 Built with modern tools, clean architecture, and an eye for design.
 
-![Movie App Preview](./movie_app.jpg)
+![Movie App Preview](./public/readme/movie_app.jpg)
 
 > 🚧 This is a work in progress. Stay tuned for continuous improvements.
 
@@ -54,7 +54,7 @@ VITE_APPWRITE_DATABASE_ID=your_database_id
 VITE_APPWRITE_COLLECTION_ID=your_collection_id
 
 ```
-🔐 Make sure to replace the placeholders with your actual Appwrite project values.
+> 🔐 Make sure to replace the placeholders with your actual Appwrite project values.
 
 ### 4. Start the development server
 
@@ -63,11 +63,15 @@ npm run dev
 ```
 The app will be running at http://localhost:5173
 
+---
+
 ### 📦 Free Assets & UI Snippets
 Use these helpful resources to speed up development and design.
 - JS Mastery Pro
 - Free Video Kit Assets
 Explore more at https://jsmastery.com
+
+---
 
 ### ✅ Linting & TypeScript Support
 This project includes basic ESLint configuration.
@@ -77,8 +81,12 @@ To improve:
 - Enable type-aware rules via typescript-eslint
 - Check the React + TypeScript template for reference
 
+---
+
 ### 📄 License
 This project is licensed under the MIT License.
+
+---
 
 # 🙌 Built With
 Made with ❤️ and guidance from Mentor Buteyo
